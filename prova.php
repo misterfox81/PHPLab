@@ -33,8 +33,9 @@ function getUserIP() {
     return $ipaddress;
 }
 
-$prova = "variabile";
-var_dump($_SERVER['HTTP_HOST']);
+$ip_address = getUserIP();
+
+echo "Your ip is: " . $ip_address;
 ?>
 
 </body>
