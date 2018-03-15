@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Prova bash</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="js/main.js"></script>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+    <!--<script src="js/main.js"></script>-->
 </head>
 <body>
-<?
+<?php
 
 // Function to get the user IP address
 function getUserIP() {
@@ -33,9 +33,9 @@ function getUserIP() {
     return $ipaddress;
 }
 
-
-echo "Your ip is: " . getUserIP();
+$prova = "variabile";
+var_dump($_SERVER['HTTP_HOST']);
 ?>
-    
+
 </body>
 </html>
