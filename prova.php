@@ -37,6 +37,7 @@ $ip_address = getUserIP();
 
 echo "Your ip is: " . $ip_address;
 ?>
-
+<br>
+OK!
 </body>
 </html>
